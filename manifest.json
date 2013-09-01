@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+
+    "name": "Namba Video Downloader",
+    "version": "1.0",
+
+	"options_page": "html/options.html",
+
+	"content_scripts": [
+    {
+        "matches": ["*://*.namba.kg/*"],
+        "css" : ["css/styles.css"],
+        "js": ["js/jquery.js", "js/redesign.js"]
+    } 
+	],
+
+    "permissions": [
+		"tabs", "*://*.namba.kg/*",
+		 "storage"
+	],
+
+    "web_accessible_resources": ["html/*", "js/jquery-2.0.3.min.map"]
+
+ }

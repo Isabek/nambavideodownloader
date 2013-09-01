@@ -1,0 +1,25 @@
+#download_bar{
+	background: #cc4186;
+}
+.download_image_icon{
+	background-image: url("chrome-extension://__MSG_@@extension_id__/html/graphics/controls.png");
+	width: 17px;
+	height: 15px;
+	background-position: -179px -172px;
+}
+#download_bar > .fix-size{
+	width: 1000px;
+	margin: 0px auto;
+	height: 30px;
+}
+.video_download_control{
+	float: right;
+	margin-right: 10px;
+	padding: 6px 0px;
+}
+#namba_download_video_title{
+	float: left;
+	color: #fff;
+	font-size: 15px;
+	margin-top: 5px;
+}
